@@ -1,12 +1,8 @@
 https://caddyfmt.online {
-    
-    handle /api/* {
-        reverse_proxy localhost:10000
-    }
-
-    handle {
-        root * frontend
-        file_server 
-    }
-    
+	handle /api/* {
+		reverse_proxy localhost:10000
+	}
+	handle {
+		file_server frontend
+	}
 }
