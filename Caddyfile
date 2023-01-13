@@ -1,4 +1,4 @@
-http://localhost:2000 {
+https://caddyfmt.online {
     
     handle /api/* {
         reverse_proxy localhost:10000
